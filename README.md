@@ -262,3 +262,5 @@ Tai reiškia, kad testavimas sėkimgas ir visi testuojami metodai ir funkcijos v
 Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir su juo vykdomas testavimas.
 
 # Trečias laboratrinis darbas
+
+## Versija 3.0
