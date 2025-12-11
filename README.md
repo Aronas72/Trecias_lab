@@ -282,6 +282,6 @@ Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir 
 8. Toliau Start Menu irgi galima surasti programą, tačiau ji ne visada iškart suinstaliavus ten matosi, todėl jei nesimato reikia vykdyti 9 žingsnį.
 9. Atsidaryti File Explorer ir suvesti į paieškos lauką šį sakinį: C:\ProgramData\Microsoft\Windows\Start Menu\Programs.
 10. Toliau pasirenkam VU -> Vardenis-Pavardenis ir spaudžiame ant "Paleisti programą". Po šito galėsite rasti paleidimą ir per savo Start Menu.
-11. Paskutinis žingsnis vėl reikia atlikti Dešinys klavišas -> Properties -> Shortcut -> Advanced -> Uždėti varnelę ant Run as administrator šį sakinį, kad būtų įjungtos administravimo teisės.
+11. Paskutinis žingsnis surandame savo programą per Start Menu ir spaudžiame ant jos dešinį klavišą, toliau More ir Run as administrtor, kad būtų įjungtos administravimo teisės.
 
 ## GERO NAUDOJIMOSI STUDENTŲ PAŽYMIŲ SUVEDIMO SISTEMA
