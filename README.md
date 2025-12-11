@@ -270,7 +270,7 @@ Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir 
 Šiam projektui buvo naudojama Windows operacinė sistema. Programuota per Microsoft Visual Studio. Diegiklis sukurtas per Inno Setup.
 
 1. Reikia turėti visus failus savo kompiuteryje, kurie yra šioje repozitorijoje. Jeigu dar neturit, tai nusikopijuokit.
-2. Sukompiliuokite programos .exe failą ir nusikopijuokite kelią iki jo, nes paskui prireiks.
+2. Sukompiliuokite programos .exe failą ir nusikopijuokite kelią iki jo, nes paskui prireiks. (Šiam žingsniui reikia įsitikinti, kad per Visual Studio būtų pasirinktas Release, o ne Debug rėžimas, nes kitaip .exe failas neatsiras).
 3. Toliau sukompiliuokite installer.iss failą, vietoje Vardenis Pavardenis įrašę savo vardą ir pavardę arba visiškai ištrynę tą eilutę. (Viršuje Build -> Compile).
 
 <img width="842" height="504" alt="image" src="https://github.com/user-attachments/assets/6b82e032-ad43-4c43-97cc-dc5ebb6515d3" />
@@ -283,5 +283,13 @@ Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir 
 9. Atsidaryti File Explorer ir suvesti į paieškos lauką šį sakinį: C:\ProgramData\Microsoft\Windows\Start Menu\Programs.
 10. Toliau pasirenkam VU -> Vardenis-Pavardenis ir spaudžiame ant "Paleisti programą". Po šito galėsite rasti paleidimą ir per savo Start Menu.
 11. Paskutinis žingsnis surandame savo programą per Start Menu ir spaudžiame ant jos dešinį klavišą, toliau More ir Run as administrtor, kad būtų įjungtos administravimo teisės.
+
+### Programos šalinimas
+
+1. Spustelkite Start Menu.
+2. Atsidarykite Settings.
+3. Pasirinkite šone Apps -> Installed Apps.
+4. Suraskite Studento Duomenų Programa.
+5. Spauskite 3 taškelius ir pasirinkite Uninstall ir programa po kelių paspaudimų bus išinstaliuota!
 
 ## GERO NAUDOJIMOSI STUDENTŲ PAŽYMIŲ SUVEDIMO SISTEMA
