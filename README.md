@@ -264,3 +264,24 @@ Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir 
 # Trečias laboratrinis darbas
 
 ## Versija 3.0
+
+### Naudojimosi instrukcija
+
+Šiam projektui buvo naudojama Windows operacinė sistema. Programuota per Microsoft Visual Studio. Diegiklis sukurtas per Inno Setup.
+
+1. Reikia turėti visus failus savo kompiuteryje, kurie yra šioje repozitorijoje. Jeigu dar neturit, tai nusikopijuokit.
+2. Sukompiliuokite programos .exe failą ir nusikopijuokite kelią iki jo, nes paskui prireiks.
+3. Toliau sukompiliuokite installer.iss failą, vietoje Vardenis Pavardenis įrašę savo vardą ir pavardę arba visiškai ištrynę tą eilutę. (Viršuje Build -> Compile).
+
+<img width="842" height="504" alt="image" src="https://github.com/user-attachments/assets/6b82e032-ad43-4c43-97cc-dc5ebb6515d3" />
+
+4. Toliau atsidarykite C diską, rinkitės SetupOutput aplanką ir ten pasirinkite VU_Lab_Setup_v3_0.
+5. Iššoks UAC langas, kuriame spauskite YES ir toliau nurodykite C:\Program Files\VU\Vardenis-Pavardenis, kad programa būtų instaliuota.
+6. Du kartus spaudžiame NEXT, paskui INSTALL ir galų gale FINISH.
+7. Dabar ant savo Desktop matote failą su programa. Reikia įjungti autoriaus teises. Dešinys klavišas -> Properties -> Shortcut -> Advanced -> Uždėti varnelę ant Run as administrator.
+8. Toliau Start Menu irgi galima surasti programą, tačiau ji ne visada iškart suinstaliavus ten matosi, todėl jei nesimato reikia vykdyti 9 žingsnį.
+9. Atsidaryti File Explorer ir suvesti į paieškos lauką šį sakinį: C:\ProgramData\Microsoft\Windows\Start Menu\Programs.
+10. Toliau pasirenkam VU -> Vardenis-Pavardenis ir spaudžiame ant "Paleisti programą". Po šito galėsite rasti paleidimą ir per savo Start Menu.
+11. Paskutinis žingsnis vėl reikia atlikti Dešinys klavišas -> Properties -> Shortcut -> Advanced -> Uždėti varnelę ant Run as administrator šį sakinį, kad būtų įjungtos administravimo teisės.
+
+## GERO NAUDOJIMOSI STUDENTŲ PAŽYMIŲ SUVEDIMO SISTEMA
