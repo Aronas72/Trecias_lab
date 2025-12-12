@@ -284,6 +284,10 @@ Taip pat CMakeLists.txt failas užtikrina, kad yra parsiunčiamas googletest ir 
 10. Toliau pasirenkam VU -> Vardenis-Pavardenis ir spaudžiame ant "Paleisti programą". Po šito galėsite rasti paleidimą ir per savo Start Menu.
 11. Paskutinis žingsnis surandame savo programą per Start Menu ir spaudžiame ant jos dešinį klavišą, toliau More ir Run as administrtor, kad būtų įjungtos administravimo teisės.
 
+### Truputį greitesnis būdas
+
+Galite parsisiųsti .exe failą, kuris yra prisegtas prie release ir toliau daryti viską nuo 5 žingsnio.
+
 ### Programos šalinimas
 
 1. Spustelkite Start Menu.
